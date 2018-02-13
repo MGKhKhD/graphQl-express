@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "keywords": [
     "graphQl",
@@ -18,6 +19,8 @@
     "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "graphql-tools": "^2.21.0",
-    "nodemon": "^1.14.12"
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.33.4"
   }
 }

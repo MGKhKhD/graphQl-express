@@ -1,5 +1,7 @@
 const resolvers = {
-    Query: { books: () => books },
+    Query: {
+        hello: (parent, args, {models}) => "hi"
+    },
   };
 
 module.exports = resolvers;
